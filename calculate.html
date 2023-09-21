@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Empowering a brighter future with clean energy solutions. Join us in the fight against climate change and embrace a greener lifestyle with our comprehensive solar solutions. Invest in a cleaner, brighter, and sustainable future with Aldex Energy Contact us today for a free consultation.">
+    <meta name="keywords" content="solar,calculator, installation, renewable energy, solar panels,energy">
+    <meta name="author" content="Aldex Energy">
+    <meta name="robots" content="index, follow">
+    <meta property=" og:title" content="Aldex Energy">
+    <meta property=" og:description"
+        content="Empowering a brighter future with clean energy solutions. Join us in the fight against climate change and embrace a greener lifestyle with our comprehensive solar solutions. Invest in a cleaner, brighter, and sustainable future with Aldex Energy Contact us today for a free consultation.">
+    <meta property=" og:image" content="https://aldexenergies.com/img/logo.png"">
+    <meta property=" og:url" content="http://www.aldexenergies.com">
+    <meta property=" og:type" content="website">
+    <meta property=" og:locale" content="en_US">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" media="screen and (max-width: 1221px)" href="css/resp.css">
+    <link rel="icon" href="/img/favicon.png " type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-2/css/all.min.css"
+        integrity="sha256-46r060N2LrChLLb5zowXQ72/iKKNiw/lAmygmHExk/o=" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Get Your Estimated Price! | Aldex Energy</title>
+</head>
+
+<body>
+    <nav>
+        <div class="logo">
+            <img src="img/logo.png" alt="logo">
+        </div>
+        <div class="openMenu"><i class="fa fa-bars"></i></div>
+        <ul class="mainMenu">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="work.html">Projects</a></li>
+            <li><a href="solutions.html">Solution</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="#calc">SolarCalc</a></li>
+            <div class="closeMenu"><i class="fa fa-times"></i></div>
+            <span class="icons">
+                <a href="https://www.facebook.com/profile.php?id=100083284455257" target="_blank"><i
+                        class="fa fa-facebook"></i></a>
+                <a href="https://wa.me/919821340660" target="_blank"><i class="fa fa-whatsapp"></i></a>
+                <a href="https://www.instagram.com/aldexenergy/" target="_blank"><i class="fa fa-instagram"></i></a>
+                <a href="https://www.linkedin.com/company/aldex-energy/" target="_blank"><i
+                        class="fa fa-linkedin-square"></i></a>
+                        <a href="https://www.indiamart.com/aldexenergy/?pos=4&kwd=aldex&tags=||||8211.605|Price|product|||NA|type=slrtxt"
+                        target="_blank"><i class="fa fa-shopping-cart"></i></a>
+            </span>
+            <div class="type">
+                <span id="element"></span>
+            </div>
+        </ul>
+    </nav>
+
+
+
+    <div class="calc-head background7">
+        <h3>Get Your Price!</h3>
+    </div>
+    <div class="calc-para slide-in-animation">
+        <p>Welcome to our mission-driven initiative focused on a sustainable future powered by renewable energy. At
+            Aldex Energy, we are dedicated to transforming the energy landscape through our innovative renewable
+            solutions. With a strong commitment to environmental stewardship, we offer a comprehensive range of solar
+            and other renewable energy systems designed to reduce carbon footprints and create lasting positive impacts.
+        </p>
+    </div>
+
+    <hr>
+
+    <div class="calc-main slide-in-animation">
+        <div class="class-energy-layout">
+            <div class="energy-head">
+                <h2>Estimate your solar energy generation with the solar calculator</h2>
+            </div>
+            <div class="power-select">
+                <form>
+                    <p class="select-para">Enter the Power Of System</p>
+                    <input type="number" id="num1" placeholder="Power(kW)" class="energy-value">
+                </form>
+            </div>
+            <div class="area-select">
+                <p class="place-installation">Select The Place Of Installation</p>
+                <select class="select-place" id="num2">
+                    <option value="" disabled selected>Select</option>
+                    <option value="1">RoofTop</option>
+                    <option value="2">Ground-Mounted</option>
+                </select>
+            </div>
+            <div class="button-align">
+                <button class="button-calc" onclick="energy()">Calculate</button>
+                <button class="button-calc" onclick="resetenergy()">Reset</button>
+            </div>
+            <div id="energy-final"></div>
+        </div>
+    </div>
+
+    <footer>
+        <div class="footer-content">
+            <h3>aldex energy</h3>
+            <p>"Powering a Brighter Tomorrow"</p>
+            <ul class="socials">
+                <li><a href="https://www.facebook.com/profile.php?id=100083284455257" target="_blank"><i
+                            class="fa fa-facebook"></i></a></li>
+                <li><a href="https://wa.me/919821340660" target="_blank"><i class="fa fa-whatsapp"></i></a></li>
+                <li><a href="https://www.instagram.com/aldexenergy/" target="_blank"><i class="fa fa-instagram"></i></a>
+                </li>
+                <li><a href="https://www.linkedin.com/company/aldex-energy/" target="_blank"><i
+                            class="fa fa-linkedin-square"></i></a>
+                </li>
+                <li><a href="https://www.indiamart.com/aldexenergy/?pos=4&kwd=aldex&tags=||||8211.605|Price|product|||NA|type=slrtxt" target="_blank"><i
+                    class="fa fa-shopping-cart"></i></a>
+        </li>
+            </ul>
+        </div>
+        <div class="footer-bottom">
+            <p> CopyRight &copy;2023 Aldexenergies.com </p>
+        </div>
+    </footer>
+
+
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script src="js/resp.js"></script>
+    <script src="js/java.js"></script>
+
+</body>
+
+</html>
